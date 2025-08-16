@@ -688,6 +688,10 @@ progress::-moz-progress-bar{
     padding: 0 .4rem;
 }
 
+.portfolio > .container{
+    grid-template-rows: 15% 50%;
+}
+
 .social-media svg{
     width: 1.5rem;
     height: 1.5rem;
@@ -699,10 +703,10 @@ progress::-moz-progress-bar{
         grid-template-columns: repeat(2, 48%);
         justify-content: space-between;
     }
-
     .portfolio > .container{
         display: grid;
         grid-template-columns: repeat(2, 50%);
+        /* grid-template-rows: 25% 50%; */
     }
 
     .portfolio .section-title{
